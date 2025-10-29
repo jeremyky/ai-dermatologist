@@ -31,6 +31,7 @@ unzip train_dataset.zip -d data/
 
 After unzipping, your directory structure should look like this:
 
+```text
 derm/
 ├── data/
 │   ├── 1. Eczema/
@@ -49,7 +50,7 @@ derm/
 ├── Starter.ipynb
 ├── requirements.txt
 └── .gitignore
-
+```
 
 Each folder under data/ represents a distinct disease class used for classification.
 
