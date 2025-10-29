@@ -58,12 +58,13 @@ Each folder under data/ represents a distinct disease class used for classificat
 
 ### Install Requirements
 
+```text
 conda create -n derm
 conda activate derm
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 conda install matplotlib seaborn scikit-learn pillow tqdm requests jupyter ipykernel -y
 python -m ipykernel install --user --name=derm --display-name "Python (derm)"
-
+```
 
 You can view my EDA in src/eda.ipynb
 
